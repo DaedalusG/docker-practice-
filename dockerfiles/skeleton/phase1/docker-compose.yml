@@ -1,0 +1,12 @@
+version: "3"
+services:
+    nginx:
+      build: 
+        context: .
+        # dockerfile: "Dockerfile.Dockerfile"
+      image: "nginx:first-comp"
+      ports: 
+        - "80:80"
+        
+
+          
